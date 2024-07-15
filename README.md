@@ -22,7 +22,7 @@ The purpose of this CLI application is to collect data from different stores, ba
 
 - command below will automatically install dependencies
 
-  **`pip install .`**
+  **`pip install -r requirements.txt`**
 
 ### **Step 3.** Setup Database
 
