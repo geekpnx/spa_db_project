@@ -24,7 +24,7 @@ The purpose of this CLI application is to collect data from different stores, ba
 
   **`pip install -r requirements.txt`**
 
-- This one will install the latest version of SPA package (v.10):
+- This one will install the latest version of SPA package (**`v.11`**):
 
   **`pip install -i https://test.pypi.org/simple/ spa`**
 
