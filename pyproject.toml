@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "spa"
-version = "0.9"
-description = "Store Prices Analytics"
-authors = ["Terence Tahalele <geekpnx@gmail.com>"]
+version = "0.10"
+description = "Store Pricing Analytics"
+authors = ["Terence Tahalele <terence.tahalele@gmail.com>"]
 packages = [{ include = "spa" }]
 
 [tool.poetry.dependencies]

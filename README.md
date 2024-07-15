@@ -1,4 +1,4 @@
-# **STORES PRICING ANALYTICS (SPA) CLI APP**
+# **STORES PRICING ANALYTICS (SPA) - CLI APP**
 
 ![spa](assets/SPA_Overview.gif)
 
@@ -8,7 +8,7 @@ The purpose of this CLI application is to collect data from different stores, ba
 
 ## **USAGE**
 
-### **Step 1.** Virtual Environment (with venv)
+### **Step 1.** Setup virtual Environment (with venv)
 
 - Create venv by running the command
 
@@ -20,9 +20,12 @@ The purpose of this CLI application is to collect data from different stores, ba
 
 ### **Step 2.** Install required modules/libraries
 
-- command below will automatically install dependencies
+- Command below will install the dependencies
 
   **`pip install -r requirements.txt`**
+
+- This one will install the latest version of SPA package (v.10):
+  **`pip install -i https://test.pypi.org/simple/ spa`**
 
 ### **Step 3.** Setup Database
 
