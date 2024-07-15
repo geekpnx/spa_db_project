@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "spa"
-version = "0.10"
+version = "0.11"
 description = "Store Pricing Analytics"
 authors = ["Terence Tahalele <terence.tahalele@gmail.com>"]
 packages = [{ include = "spa" }]
