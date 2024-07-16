@@ -6,7 +6,7 @@
 
 The purpose of this CLI application is to collect data from different stores, based on the product, prices and compare them before you decide to purchase things.  
 
-## **USAGE**
+## **INSTALL**
 
 ### **Step 1.** Setup virtual Environment (with venv)
 
@@ -30,22 +30,26 @@ The purpose of this CLI application is to collect data from different stores, ba
 
 ### **Step 3.** Setup Database
 
-- Go to initspa directory
+> #### ***Note:***  
+
+> *What happens when you run the last script below in Database Setup process?*
+*Please, make sure your **`PostgreSQL`** running and you have the user **`postgres`** exist*
+> - *It will create user admin Database with the name  **`spa_admin`**, for this we need to access **PSQL** using the default **postgres** user. Therefor you will need to enter **postgres** password '`postgres`'(without single quote) if you haven't changed it already. If you did you might need to enter the password you have set.*
+
+> - *The program will ask you to login to **postgres** Database using the new username '**spa_admin**', all you needed to do now is, to enter the password that has been set by the program and that is '`password`' (without single quote).*
+
+> - *After tables will be created and sample data will be inserted automatically.*
+
+- Next step, go to initspa directory
+  
   **`cd initspa/`**
 
 - and run command
+  
   **`python3 -m initspa`**
 
-> #### ***Note:***  
+### **USAGE**
 
-> *What happens when you run the last script above?*
-
-> - *It will create user admin Database with the name  **`spa_admin`**, for this we need to access **PSQL** using the default **postgres** user. Therefor you will need to enter **postgres** default password '`postgres`'(without single quote) if you haven't changed it already. If you did you might need to enter the one you have set.*
-
-> - *The program will ask you to login to **postgres** Database using your the new username '**spa_admin**' we have created, all you needed to do here is to enter the password that has been set by the program and that is '`password`' (without single quote).*
-
-> - *After tables will be created and data sample data will be inserted automatically.*
-
-### **Step 4.** Run the CLI SPA APP
+Run the CLI SPA APP
 
 - Just by enter the command: **`spa`**
